@@ -2,18 +2,45 @@
 <html lang="en">
 	<head>
   	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
+  	<meta name="description" content="The Spacecrash Web Game">
   	<meta name="keywords" content="one, two, three">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Blank Template</title>
+		<title> Space Crash</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-
+		<header>
+			<h1> Space Crash </h1>
+		</header>
+		<main>
+			<div id="home">
+				<div id="intro">
+					<h2 id="welcome"> Welcome to Space Crash </h2>
+					<p> You are the sole survivng passenger on a damaged spaceship that is drifting into the sun. </p>
+					<p> On the radio, you reach ground control, who has all the info you need to repair your ship and survive. </p>
+					<p> But there's a catch. Ground control can't see the control panels. So everyone will need to talk it out - fast. </p>
+				</div>
+				<span id="selectYourRoleTitle"> Select your role </span>
+				<div id="roleSelect">
+					<div id="roleSelectPassenger">
+						<div class="roleArea">
+							<span class="roleButton" id="selectPassengerButton"> Passenger </span>
+							<p class="roleText"> Take the role of the sole survivor of a spaceship disaster and save it from being swallowed by the sun. </p>
+						</div>
+					</div>
+					<div id="roleSelectGroundControl">
+						<div class="roleArea">
+							<span class="roleButton" id="selectGroundControlButton"> Ground Control </span>
+							<p class="roleText"> Guide the sole survivor to safety by giving instructions to the survivor from pilot's manual.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

@@ -20,23 +20,75 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
-
+body { 
+  font-family: sans-serif;
+  height: 100%;
 }
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header { 
+  text-align: center;
+  background-color: black;
+  color: white;
 }
 
-footer {
-
+h1 { 
+  margin: 0;
+  padding: 1%;
 }
-
 /******************************************
-/* ADDITIONAL STYLES
+/* HOME PAGE
 /*******************************************/
+#home { 
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 2%;
+}
+
+#selectYourRoleTitle { 
+  margin-top: 3%;
+  font-size: 1.5rem;
+}
+
+#roleSelect { 
+  margin-top: 1.5%;
+  display: flex;
+  flex-flow: row;
+  width: 45%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.roleArea { 
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.roleText { 
+  font-size: 0.80rem;
+  margin-top: 5%;
+}
+
+.roleButton {
+  border: solid black 3px;
+  border-radius: 8px;
+  padding: 20px;
+  color: white;
+}
+
+#selectPassengerButton { 
+  background-color: blue;
+}
+
+#selectGroundControlButton { 
+  background-color: blueviolet;
+}
+
+#welcome { 
+  text-align: center;
+  padding-bottom: 5%;
+}
