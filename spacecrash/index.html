@@ -11,34 +11,23 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
 	</head>
-	<body>
-		<header>
-			<h1> Space Crash </h1>
-		</header>
-		<main>
-			<div id="home">
-				<div id="intro">
-					<h2 id="welcome"> Welcome to Space Crash </h2>
-					<p> You are the sole survivng passenger on a damaged spaceship that is drifting into the sun. </p>
-					<p> On the radio, you reach ground control, who has all the info you need to repair your ship and survive. </p>
-					<p> But there's a catch. Ground control can't see the control panels. So everyone will need to talk it out - fast. </p>
-				</div>
-				<span id="selectYourRoleTitle"> Select your role </span>
-				<div id="roleSelect">
-					<div id="roleSelectPassenger">
-						<div class="roleArea">
-							<span class="roleButton" id="selectPassengerButton"> Passenger </span>
-							<p class="roleText"> Take the role of the sole survivor of a spaceship disaster and save it from being swallowed by the sun. </p>
-						</div>
-					</div>
-					<div id="roleSelectGroundControl">
-						<div class="roleArea">
-							<span class="roleButton" id="selectGroundControlButton"> Ground Control </span>
-							<p class="roleText"> Guide the sole survivor to safety by giving instructions to the survivor from pilot's manual.</p>
-						</div>
-					</div>
-				</div>
+	<body id="indexBody">
+		<main id="indexMain">
+			<div id="introTextDiv">
+				<p class="introText"> A lone survivor awakes on the derelict corpse of a colony ship.</p>
+				<p class="introText"> The spaceship's controls are confusing to the untrained survivor.</p>
+				<p class="introText"> The ship drifts towards an unknown star and will be burnt to a crisp in a matter of minutes.</p>
+				<p class="introText"> A radio crackles to life. It is the control station. A lone responder has answered the distress call.</p>
+				<p class="introText"> The responder must instruct the survivor in how to restart the ship's auto-pilot before it is consumed by stellar inferno.</p>
+				<p class="introText" id="gameTitle"> This is Suncrash. </p>
+			</div>
+			<div id="roleButtonDiv">
+				<span id="selectResponder" class="roleButton"> I will be the responder. </span>
+				<span id="selectSurvivor" class="roleButton"> I will be the survivor. </span>
 			</div>
 		</main>
 		<script type="text/javascript" src="js/main.js"></script>
